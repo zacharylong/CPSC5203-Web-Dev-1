@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width">
+
+	<title>Chapter 08 - Project 02</title>
+	<link href="css/styles.css" rel="stylesheet" />
+    <script src="js/data.js"></script>
+    <script src="js/functions.js"></script>
+</head>
+
+<body>
+<header>
+    <h2>Share Your Travels</h2>
+</header>
+
+<div class="flex-container justify">
+
+	<!-- loop through countries array holding each object. -->
+
+	<script>
+	for (var i = 0; i < countries.length; i++) {
+		outputCountryBox(countries[i].name, countries[i].continent, countries[i].cities, countries[i].photos )
+	}
+
+	//base case test input
+	// outputCountryBox("Canada","North America", "Toronto", "us1.jpg")
+
+	</script>
+
+</div>
+
+
+
+</body>
+</html>
