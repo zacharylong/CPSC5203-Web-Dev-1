@@ -1,0 +1,150 @@
+/*
+Header and Footer styling to make the subtext italic, will use H1 targeting later
+to revert it back to standard font since you can't add classes to the main HTML...
+*/
+header, footer {
+  background-color: #1A237E;
+  color: white;
+  margin: 0em 2.75em 0.25em 2.75em;
+  text-indent: 1em;
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+/* Remove the list bullet points with list-style here */
+nav {
+  background-color: #3F51B5;
+  /* padding-bottom: 0.0005em;
+  padding-top: 0.0005em; */
+  text-align: left;
+  list-style: none;
+}
+
+/* Background and some padding */
+main {
+  margin: 0em 4em 0.25em 4em;
+  background-color: white;
+  padding: 1em;
+  border: 1px;
+}
+
+/* Define the serif fonts and background */
+body {
+  background-color: #E8EAF6;
+  font-family: "Times New Roman", Georgia, serif;
+}
+
+/* Define the serif fonts, add a border around everything
+and a bottom margin to space the sections out */
+section {
+  border: dotted 1px #C5CAE9;
+  background-color: #C5CAE9;
+  margin-bottom: 1em;
+  font-family: "Times New Roman", Georgia, serif;
+}
+
+/* Use font styling to revert these fonts back to normal since they had to be italicized
+in the header. Add sans-serif styling for all headers */
+h1 {
+  padding-top: 0.5em;
+  font-style: normal;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+}
+
+/* Define fonts for H2 headers */
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Define sans serif fonts and add a background to make the headers pop */
+h3 {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #7986CB;
+  font-size: 2em;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0px;
+}
+
+/* Define font family as serif, add some padding */
+p {
+  font-family: "Times New Roman", Georgia, serif;
+  padding-left: 1em;
+  padding-bottom: 0px;
+}
+
+/* Nav bar list styling, display to make them read left to right not lines */
+li {
+  display: inline-block;
+  text-indent: 0px;
+  font-size: 1em;
+  padding-left: 0px;
+}
+
+/* Margin styling for the images */
+figure {
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+
+/* Caption background */
+figcaption {
+  background-color: #C5CAE9
+}
+
+/* Stretch the image to fill the page dynamically */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Link color highligting as specified */
+a:link {
+  color: #00B0FF;
+  font-style: normal;
+}
+
+/* Link hover color changeing as specified */
+a:hover {
+  background-color: #F50057;
+}
+
+/* Make all divs a consistent background */
+div {
+  background-color: white;
+}
+
+/* Background and make text italic like in the example */
+#reviews {
+  background-color: white;
+  font-style: italic;
+}
+
+/* Change first half of the comment to blue */
+.byline {
+  color: blue;
+  padding: .5em;
+}
+
+/* Add a HR type border below the comment
+this is deprecated since can't modify the HTML
+.byline-comment {
+  padding-bottom: 1em;
+  border-bottom: dotted 1px black;
+} */
+
+/* style the HR since we can modify the HTML it sounds like? */
+hr {
+  margin: 0em 1em 0em 1em;
+  border-top: dotted 1px #C5CAE9;
+}
+
+/* Change text for time to red like in the example */
+time {
+  color: red;
+}
